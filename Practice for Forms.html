@@ -21,6 +21,37 @@
                 <label for="box">Check this box:</label>
                 <input type="checkbox" name="box" id="box">
             </form>
+            <form>
+                <label for="circle">Check this circle:</label>
+                <input type="radio" name="circle" id="circle 1">
+                <br>
+                <label for="circle">Or check this one:</label>
+                <input type="radio" name="circle" id="circle 2">
+            </form>
+            <form>
+                <label for="list">Pick something from this list:</label>
+                <select id="list" name="list">
+                    <option value="item1">Item 1</option>
+                    <option value="item2">Item 2</option>
+                    <option value="item3">Item 3</option>
+                </select>
+            </form>
+            <form>
+                <label for="list 2">Pick a color from this list:</label>
+                <input list="datalist 1" name="list 2" id="list 2">
+                <datalist id="datalist 1">
+                    <option value="Red"></option>
+                    <option value="Green"></option>
+                    <option value="Blue"></option>
+                </datalist>
+            </form>
+            <form>
+                <label for="textbox">Type something here:</label>
+                <br>
+                <textarea name="textbox" id="textbox" rows="10" cols="50">type here</textarea>
+            </form>
+            <form>
+                <input type="submit" value="Done">
+            </form>
     </body>
-
 </HTML>
